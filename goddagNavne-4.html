@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <script>
+        let forNavn = prompt("Hvad er dit fornavn?");
+        let efterNavn = prompt("Hvad er dit efternavn?");
+
+        if (forNavn != "" && efterNavn != "") {
+            alert("Hej " + forNavn + efterNavn)
+        } else if (forNavn != "" && efterNavn == "") {
+            alert("Hej " + forNavn)
+        } else if (forNavn == "" && efterNavn != "") {
+            alert("Hej " + efterNavn)
+        } else if (forNavn == null && efterNavn == null) {
+            alert("Goddag min ven");
+        } else {
+            alert("Goddag min ven");
+        }
+    </script>
+</body>
+
+</html>
